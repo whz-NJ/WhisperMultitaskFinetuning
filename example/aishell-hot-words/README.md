@@ -42,6 +42,7 @@ pip install ctranslate2==4.7.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 ### 1 安装环境&代码更新
 ```markdown
 pip show transformers
+克隆本git仓库代码到/mnt/f/WSL/lainspeech/whisper/hot_words/WhisperMultitaskFinetuning
 
 复制代码到transformers的安装路径
 cp whisper/utils/tree_node.py /path/to/transformers/generation/
