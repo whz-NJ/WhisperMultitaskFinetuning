@@ -29,6 +29,7 @@
 conda create -n whisper-hot-words python=3.8
 conda activate whipser-hot-word
 pip install transformers==4.44.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+conda install pytorch==1.13.0 torchaudio==0.13.0 -c pytorch
 # pip install torch==1.13.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install torch==2.9.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 # pip install peft==0.13.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
