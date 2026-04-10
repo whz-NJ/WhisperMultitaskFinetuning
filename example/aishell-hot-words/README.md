@@ -43,7 +43,7 @@ pip install ctranslate2==4.7.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```markdown
 克隆本git仓库代码到/mnt/f/WSL/lainspeech/whisper/hot_words/WhisperMultitaskFinetuning
 pip show transformers
-复制代码到transformers的安装路径
+复制代码到transformers的安装路径（/root/miniconda3/lib/python3.10/site-packages/transformers/generation/）
 cp example/aishell-hot-words/whisper/utils/tree_node.py /path/to/transformers/generation/
 cp example/aishell-hot-words/code/utils.py /path/to/transformers/generation/utils.py
 ```
