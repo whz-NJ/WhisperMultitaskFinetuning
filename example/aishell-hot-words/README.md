@@ -38,6 +38,7 @@ pip install peft==0.12.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install torchaudio==2.9.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
 # pip install ctranslate2==4.4.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install ctranslate2==4.7.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install numpy==1.23.5 --force-reinstall
 ```
 ### 1 安装环境&代码更新
 ```markdown
