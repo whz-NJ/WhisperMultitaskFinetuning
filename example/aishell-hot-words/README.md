@@ -28,15 +28,15 @@
 ```markdown
 conda create -n whisper-hot-words python=3.8
 conda activate whipser-hot-word
-pip install transformers==4.44.0
-# pip install torch==1.13.0
-pip install torch==2.9.1
-# pip install peft==0.13.0
-pip install peft==0.12.0
-# pip install torchaudio==0.13.0
-pip install torchaudio==2.9.0
-# pip install ctranslate2==4.4.0
-pip install ctranslate2==4.7.1
+pip install transformers==4.44.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+# pip install torch==1.13.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install torch==2.9.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+# pip install peft==0.13.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install peft==0.12.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+# pip install torchaudio==0.13.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install torchaudio==2.9.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+# pip install ctranslate2==4.4.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install ctranslate2==4.7.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 ### 1 安装环境&代码更新
 ```markdown
