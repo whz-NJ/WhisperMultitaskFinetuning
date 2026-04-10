@@ -35,7 +35,8 @@ pip install torch==2.9.1
 pip install peft==0.12.0
 # pip install torchaudio==0.13.0
 pip install torchaudio==2.9.0
-pip install ctranslate2==4.4.0
+# pip install ctranslate2==4.4.0
+pip install ctranslate2==4.7.1
 ```
 ### 1 安装环境&代码更新
 ```markdown
